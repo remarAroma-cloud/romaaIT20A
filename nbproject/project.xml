@@ -3,7 +3,11 @@
     <type>org.netbeans.modules.java.j2seproject</type>
     <configuration>
         <data xmlns="http://www.netbeans.org/ns/j2se-project/3">
+<<<<<<< HEAD
+            <name>SortingAlgorthms</name>
+=======
             <name>ArrayQueue</name>
+>>>>>>> e450fdc79e150bd5954d76fee65e15531d700b02
             <source-roots>
                 <root id="src.dir"/>
             </source-roots>

@@ -8,7 +8,7 @@ import java.util.Arrays;
 public class SortingAlgorithms {
     
  
-  // Bubble Sort: magbayloay ang magkatapad nga numero kung sayop ang ilang pagkasunod-sunod.
+ 
     public static void bubbleSort(int[] arr) {
         int n = arr.length;
 
@@ -24,14 +24,14 @@ public class SortingAlgorithms {
                 }
             }
 
-            // Kung walay nausab, sorted na ang array.
+ 
             if (!swapped) {
                 break;
             }
         }
     }
 
-    // Selection Sort: pangitaon ang pinakagamay nga numero ug ibutang sa sunod nga posisyon.
+ 
     public static void selectionSort(int[] arr) {
         int n = arr.length;
 
@@ -50,7 +50,7 @@ public class SortingAlgorithms {
         }
     }
 
-    // Insertion Sort: isulod ang matag numero sa hustong lugar sa nauna nang na-sort nga bahin.
+ 
     public static void insertionSort(int[] arr) {
         for (int i = 1; i < arr.length; i++) {
             int key = arr[i];
@@ -68,7 +68,7 @@ public class SortingAlgorithms {
     public static void main(String[] args) {
         int[] originalArray = {64, 25, 12, 22, 11, 90, 34, 7, 18, 50};
 
-        // Tagsa-tagsa nga kopya aron dili mausab ang original array.
+ 
         int[] bubbleArray = Arrays.copyOf(originalArray, originalArray.length);
         int[] selectionArray = Arrays.copyOf(originalArray, originalArray.length);
         int[] insertionArray = Arrays.copyOf(originalArray, originalArray.length);
